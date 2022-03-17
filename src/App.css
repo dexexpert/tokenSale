@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-decoration:underline ;
+  font-weight:bold;
+
+}
+
+.heading {
+
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-weight:bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.myButton {
+	background-color:#6b25ba;
+	border-radius:30px;
+	border:1px solid #5419ab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:10px 20px;
+  width: 180px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #3d2866;
+}
+.myButton:hover {
+	background-color:#6e2abd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myinput {
+  padding:10px;
+  margin: 0px 40px;
+  width: 300px
+}
+
+.addressBtn {
+	background-color:#6b25ba;
+	border-radius:30px;
+	border:1px solid #5419ab;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #3d2866;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  width:100%;
+  left:0;right:0;top:0;bottom:0;
+  background-color: rgba(255,255,255,0.7);
+  z-index:9999;
+  /* display:none; */
+}
+.middle-container img {
+  height: 100px;
+}
